@@ -1,6 +1,6 @@
-Maheshwari Rentals, a simple single page web application made using MongoDB, Go with Fiber, React Js and Tailwind CSS.
+**Maheshwari Rentals**, a simple single page web application made using **MongoDB, Go with Fiber, React Js and Tailwind CSS**.
 
-Features which are till left to be built :
+**Features which are still left to be built** :
 
 -> Specific Ads Details
 
@@ -16,10 +16,12 @@ Features which are till left to be built :
 
 -> Enhance Search
 
-Contact me via LinkedIn here : https://www.linkedin.com/in/harsh-kumar-13496925a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLbduMBJ4QdyICgvkQ4e3fA%3D%3D
+-> Deployment
 
-Feel free to suggest or use this code and dm me if needed any help :)
-Don't forget to give it a star (⭐️)  😅.
+**Contact me via LinkedIn here** : https://www.linkedin.com/in/harsh-kumar-13496925a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLbduMBJ4QdyICgvkQ4e3fA%3D%3D
+
+Feel free to suggest anything or use this code and dm me if needed any help :)
+**Don't forget to give it a star (⭐️)  😅.**
 
 <img width="1280" alt="Screenshot 20
   24-02-07 at 10 10 37 PM" src="https://github.com/Harsh-apk/maheshwariRentals/assets/129182272/dfa33e3e-e8b9-4a57-ba6f-4a325b7f74cb">
