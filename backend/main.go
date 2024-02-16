@@ -21,7 +21,7 @@ var config = fiber.Config{
 func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080"
+		port = ":10000"
 	}
 	client, err := mongo.Connect(context.Background(), options.Client().ApplyURI(db.DBURI))
 	if err != nil {
