@@ -20,8 +20,10 @@ var config = fiber.Config{
 }
 
 func main() {
-	listenAddr := flag.String("listenAddr", "localhost:5000", "The Listen Address of the api server")
-	flag.Parse()
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
 	client, err := mongo.Connect(context.Background(), options.Client().ApplyURI(db.DBURI))
 	if err != nil {
 		panic(err)
@@ -46,6 +48,6 @@ func main() {
 	app.Post("/login", userHandler.HandleLoginUser)
 	app.Static("/", "./public/build")
 	app.Static("/static", "./files")
-	app.Listen(*listenAddr)
+	app.Listen(port)
 
 }
